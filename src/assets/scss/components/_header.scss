@@ -1,0 +1,17 @@
+.header {
+    width: 100%;
+
+    background-color: transparent;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+
+    &__nav {
+        @extend %flex-align-center;
+        justify-content: space-between;
+        height: 140px;
+    }
+}

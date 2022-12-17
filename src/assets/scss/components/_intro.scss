@@ -1,0 +1,49 @@
+.intro {
+    @extend %flex-align-center;
+    min-height: 100vh;
+    height: 100vh;
+    padding-top: 140px;
+
+    &__wrapper {
+        margin-top: 30px;
+
+        position: relative;
+    }
+
+    &__content {
+        width: 100%;
+        max-width: 740px;
+    }
+
+    &__img {
+        position: absolute;
+        top: -6px;
+        right: 19px;
+        z-index: 2;
+    }
+
+    &__blob {
+        width: 834px;
+        height: 782px;
+
+        position: absolute;
+        top: -48px;
+        right: -36px;
+        z-index: 1;
+    }
+
+    &__title {
+        margin-bottom: 50px;
+
+        font-size: 70px;
+        font-weight: 800;
+        color: $title-color;
+    }
+
+    &__description {
+        margin-bottom: 50px;
+
+        font-size: 30px;
+        font-weight: 400;
+    }
+}
